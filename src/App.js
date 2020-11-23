@@ -1,11 +1,10 @@
 import './App.css';
 import Links from './components/Links';
-import LinkForm from './components/LinkForm';
+import 'antd/dist/antd.css';
 
 function App() {
     return (
-        <div>
-            <LinkForm />
+        <div className="container">
             <Links />
         </div>
     );
